@@ -7,5 +7,11 @@
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://localhost:3306/users</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="@eu-cdbr-west-03.cleardb.net" uuid="c105c87c-c548-482c-88a0-12d5fb56ec38">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://eu-cdbr-west-03.cleardb.net:3306</jdbc-url>
+    </data-source>
   </component>
 </project>
