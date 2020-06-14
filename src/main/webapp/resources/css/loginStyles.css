@@ -1,0 +1,271 @@
+@charset "utf-8";
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(https://meyerweb.com/eric/tools/css/reset/reset.css);
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.modal {
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 50px;
+    z-index: 5;
+
+    background: #f3f3f3;
+    border: 1px solid #fff;
+    border-radius: 5px;
+
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.form-toggle {
+    float: right;
+    color: #5a5656;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.form-toggle:hover {
+    cursor: pointer;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert {
+    position: relative;
+    padding: 0.375rem 0.625rem;
+
+}
+
+.error_message {
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    color: #721c24;
+}
+
+body {
+    background: url(images/bg.png);
+    color: #5a5656;
+    font: 100%/1.5em 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1em;
+}
+
+h1, p {
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin: 0 0 50px 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+
+strong {
+    font-weight: bold;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+#login {
+    margin: 50px auto;
+    width: 300px;
+}
+
+form fieldset input[type="text"], input[type="password"] {
+    background: #e1e1e1;
+    border: none;
+    border-radius: 3px;
+    color: #5a5656;
+    font-family: inherit;
+    font-size: 14px;
+    height: 50px;
+    outline: none;
+    padding: 0px 10px;
+    width: 280px;
+    -webkit-appearance: none;
+}
+
+.button {
+    background-color: #008dde;
+    border: none;
+    color: white;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+form fieldset input[type="submit"] {
+    background-color: #008dde;
+    border: none;
+    border-radius: 3px;
+    color: #f4f4f4;
+    cursor: pointer;
+    font-family: inherit;
+    height: 50px;
+    text-transform: uppercase;
+    width: 300px;
+    -webkit-appearance: none;
+}
+
+
+.table-fill {
+    background: white;
+    border-radius: 3px;
+    border-collapse: collapse;
+    height: 320px;
+    margin: auto;
+    max-width: 600px;
+    padding: 5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite;
+}
+
+th {
+    color: #fafafa;
+    background: #008dde;
+    border-bottom: 4px solid #D5DDE5;
+    border-right: 1px solid #343a45;
+    font-size: 23px;
+    font-weight: 100;
+    padding: 24px;
+    text-align: left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align: middle;
+}
+
+th:first-child {
+    border-top-left-radius: 3px;
+}
+
+th:last-child {
+    border-top-right-radius: 3px;
+    border-right: none;
+}
+
+
+tr:first-child {
+    border-top: none;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr:nth-child(odd) td {
+    background: #EBEBEB;
+}
+
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 3px;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 3px;
+}
+
+td {
+    background: #FFFFFF;
+    padding: 20px;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 300;
+    font-size: 18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
+    border-right: 1px solid #C1C3D1;
+}
+
+tr {
+    border-top: 1px solid #C1C3D1;
+    border-bottom-: 1px solid #C1C3D1;
+    color: #666B85;
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
+}
+
+td:last-child {
+    border-right: 0px;
+}
+
+th.text-left {
+    text-align: left;
+}
+
+th.text-center {
+    text-align: center;
+}
+
+th.text-right {
+    text-align: right;
+}
+
+td.text-left {
+    text-align: left;
+}
+
+td.text-center {
+    text-align: center;
+}
+
+td.text-right {
+    text-align: right;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.replaceIcons {
+    padding: 12px 16px;
+    margin-left: 46%;
+    position: relative;
+
+}
+.replaceButtonLogout{
+    padding: 12px 16px;
+    position: relative;
+
+    margin-left: 41%;
+}

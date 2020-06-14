@@ -1,0 +1,12 @@
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\Application.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\controller\RegistrationController.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\service\CustomLogoutSuccessHandler.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\entity\User.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\entity\Role.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\service\CustomLoginSuccessHandler.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\repository\UserRepository.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\config\MvcConfig.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\config\WebSecurityConfig.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\service\UserService.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\repository\RoleRepository.java
+C:\Users\Ivan Selianto\IntelliJIDEAProjects\Task4Registration\src\main\java\com\task4\controller\AdminController.java
